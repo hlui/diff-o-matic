@@ -7,4 +7,5 @@ do
   `curl $1  > out1 2> /dev/null`
   diff=`diff out1 out2`
 done
+sudo rm -rf ~/workspace/briangleshackathon
 echo "Error, pages don't match"
